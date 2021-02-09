@@ -1,2 +1,2 @@
 ### Leaders
-* [Kim Carter](mailto:kim.carter@owasp.org)
+* [Kim Carter (binarymist)](mailto:kim.carter@owasp.org)
