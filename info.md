@@ -38,7 +38,7 @@
 
 ### Licensing
 
-* [GNU AGPL v3](https://github.com/purpleteam-labs/purpleteam/blob/main/LICENSE.md)
+* <i class="fas fa-id-badge" style="color:#A569BD;"></i> [GNU AGPL v3](https://github.com/purpleteam-labs/purpleteam/blob/main/LICENSE.md)
 
 ### Social Media
 
