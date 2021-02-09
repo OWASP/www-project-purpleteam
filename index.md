@@ -12,7 +12,7 @@ pitch: Web Security Regression Testing CLI & SaaS for your build pipeline
 
 For more details about purpleteam see the main purpleteam-labs website at [purpleteam-labs.com](https://purpleteam-labs.com)
 
-[![purpleteam Website](assets/images/purple-team-logo_final-hi-res-1_noBM_forOWASPPage-min.png)](https://purpleteam-labs.com)
+[![purpleteam Website](assets/images/purple-team-logo_final-hi-res-1_noBM-min.png)](https://purpleteam-labs.com)
 
 Many organisations spend many thousands of dollars on security defect remediation of the software projects they create. Usually this effort is also performed late in the development life-cycle, often even after the code is considered done. This fact makes the remediation effort very costly and often too short. Because of this there are many bugs left in the software that get deployed to production.
 
