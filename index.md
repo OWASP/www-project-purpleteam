@@ -16,7 +16,7 @@ For more details about purpleteam see the main purpleteam-labs website at [purpl
 
 Many organisations spend many thousands of dollars on security defect remediation of the software projects they create. Usually this effort is also performed late in the development life-cycle, often even after the code is considered done. This fact makes the remediation effort very costly and often too short. Because of this there are many bugs left in the software that get deployed to production.
 
-Purpleteam strikes at the very heart of this problem. Purpleteam is a CLI and back-end/API. The CLI can be run manually, but it's sweet spot is being inserted into Development Team's build pipelines, where it can find the security defects in your running web applications and APIs, and provide immediate and continuous notification of what and where your security defects are, along with tips on how to fix them.
+Purpleteam strikes at the very heart of this problem. Purpleteam is a CLI and back-end/API. The CLI can be run manually, but it's sweet spot is being inserted into Development Team's [build pipelines](https://github.com/purpleteam-labs/purpleteam#npm-install-locally), where it can find the security defects in your running web applications and APIs, and provide immediate and continuous notification of what and where your security defects are, along with tips on how to fix them.
 
 The purpleteam back-end runs smart dynamic application security testing against your web applications or APIs. The purpleteam CLI drives the purpleteam back-end.
 
@@ -24,15 +24,15 @@ The purpleteam back-end runs smart dynamic application security testing against 
 
 ## Architectural Overview
 
-Redis pub/sub is used to transfer Tester messages (live update data) from the Tester micro-services to the Orchestrator. 
-The Build User can configure the purpleteam CLI to receive these messages via Server Sent Events (SSE) or Long Polling (LP). The Orchestrator also needs to be configured to use either SSE or LP.
+Redis pub/sub is used to transfer Tester messages (live update data) from the Tester micro-services to the [Orchestrator](https://github.com/purpleteam-labs/purpleteam-orchestrator). 
+The [Build User](https://doc.purpleteam-labs.com/definitions.html) can configure the [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam) to receive these messages via Server Sent Events (SSE) or Long Polling (LP). The Orchestrator also needs to be configured to use either SSE or LP.
 With Long Polling (LP) if the CLI goes off-line at some point during the Test Run and then comes back on-line, no messages will be lost due to the fact that the Orchestrator persists the messages it's subscribed to back to Redis lists, then pops them off the given list as a LP request comes in and returns them to the CLI. LP is request->response, SSE is one way. In saying that, LP can be quite efficient as we are able to batch messages into arrays to be returned.
 
 <br>
 
 ![Architectural Overview](assets/images/purpleteam_local_2021-01_900w-min.png)
 
-<br>
+<br><br><br>
 
 ### Orchestrator
 
@@ -48,7 +48,7 @@ The Orchestrator is responsible for:
 Each Tester is responsible for:
 
 * Obtaining resources, cleaning up and releasing resources once the Test Run is finished
-* Starting and Stoping Stage Two Containers (hosted on docker-compose-ui) dynamically (via Lambda Functions hosted locally via sam cli) based on the number of Test Sessions provided by the Build User in the Job file which is sent from the CLI to the Orchestrator, then disseminated to the Testers
+* Starting and Stoping [Stage Two Containers](https://github.com/purpleteam-labs/purpleteam-s2-containers) (hosted on docker-compose-ui) dynamically (via [Lambda Functions](https://github.com/purpleteam-labs/purpleteam-lambda) hosted locally via sam cli) based on the number of Test Sessions provided by the Build User in the [Job](https://doc.purpleteam-labs.com/definitions.html) file which is sent from the CLI to the Orchestrator, then disseminated to the Testers
 * The actual (app, server, tls, etc) test plan
 
 ### Sam Cli
