@@ -8,6 +8,7 @@ If you want to contribute to the purpleteam project there are many avenues:
 
 * <a href="https://github.com/purpleteam-labs/purpleteam/discussions" target="_blank">Github Discussions</a>
 * purpleteam-labs.slack.com
+* You can also find us on the owasp.slack.com in the #project-purpleteam
 * <a href="https://github.com/purpleteam-labs/purpleteam/projects/2" target="_blank">Project Board</a>
 * <a href="https://github.com/purpleteam-labs/purpleteam/issues" target="_blank">Submit Issue</a>
 * <a href="https://github.com/purpleteam-labs/purpleteam/pulls" target="_blank">Submit PR</a>
