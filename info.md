@@ -17,6 +17,10 @@
 
 * <i class="fas fa-book" style="color:#A569BD;"></i> <a href="https://doc.purpleteam-labs.com" target="_blank">Documentation</a>
 
+### Mailing List
+
+* <i class="fas fa-mail-bulk" style="color:#A569BD;"></i> [Low Volume Subscribe](https://binarymist.io/blog)
+
 ### Community
 
 * <i class="fab fa-slack" style="color:#A569BD;"></i> [Slack Channel](https://owasp.slack.com/messages/project-purpleteam)
@@ -44,3 +48,7 @@
 
 * <i class="fab fa-twitter" style="color:#A569BD;"></i> <a href="https://twitter.com/purpleteamlabs" target="_blank">twitter</a>
 
+### Resources
+
+* <i class="fas fa-blog" style="color:#A569BD;"></i> [BinaryMist Blog](https://binarymist.io/blog)
+* <i class="fas fa-book" style="color:#A569BD;"></i> [BinaryMist Books](https://binarymist.io/publication/kims-selected-publications/)
