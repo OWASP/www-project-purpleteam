@@ -12,6 +12,8 @@ pitch: Web Security Regression Testing CLI & SaaS for your build pipeline
 
 For more details about purpleteam see the main purpleteam-labs website at [purpleteam-labs.com](https://purpleteam-labs.com)
 
+</br>
+
 [![purpleteam Website](assets/images/purple-team-logo_final-hi-res-1_noBM-min.png)](https://purpleteam-labs.com)
 
 Many organisations spend many thousands of dollars on security defect remediation of the software projects they create. Usually this effort is also performed late in the development life-cycle, often even after the code is considered done. This fact makes the remediation effort very costly and often too short. Because of this there are many bugs left in the software that get deployed to production.
@@ -20,7 +22,7 @@ Purpleteam strikes at the very heart of this problem. Purpleteam is a CLI and ba
 
 The purpleteam back-end runs smart dynamic application security testing against your web applications or APIs. The purpleteam CLI drives the purpleteam back-end.
 
-<br>
+</br>
 
 ## Architectural Overview
 
@@ -28,11 +30,11 @@ Redis pub/sub is used to transfer Tester messages (live update data) from the Te
 The [Build User](https://doc.purpleteam-labs.com/definitions.html) can configure the [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam) to receive these messages via Server Sent Events (SSE) or Long Polling (LP). The Orchestrator also needs to be configured to use either SSE or LP.
 With Long Polling (LP) if the CLI goes off-line at some point during the Test Run and then comes back on-line, no messages will be lost due to the fact that the Orchestrator persists the messages it's subscribed to back to Redis lists, then pops them off the given list as a LP request comes in and returns them to the CLI. LP is request->response, SSE is one way. In saying that, LP can be quite efficient as we are able to batch messages into arrays to be returned.
 
-<br>
+</br>
 
 ![Architectural Overview](assets/images/purpleteam_local_2021-01_900w-min.png)
 
-<br><br><br>
+</br></br></br>
 
 ### Orchestrator
 
