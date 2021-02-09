@@ -17,6 +17,10 @@
 
 * <i class="fas fa-book" style="color:#A569BD;"></i> <a href="https://doc.purpleteam-labs.com" target="_blank">Documentation</a>
 
+### Community
+
+* [Slack Channel](https://owasp.slack.com/messages/project-purpleteam)
+
 ### Code Repositories
 
 * [purpleteam-labs](https://github.com/purpleteam-labs)
@@ -35,3 +39,8 @@
 ### Licensing
 
 * [GNU AGPL v3](https://github.com/purpleteam-labs/purpleteam/blob/main/LICENSE.md)
+
+### Social Media
+
+* <i class="fab fa-twitter" style="color:#A569BD;"></i> <a href="https://twitter.com/purpleteamlabs" target="_blank">twitter</a>
+
