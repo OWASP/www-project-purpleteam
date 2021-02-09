@@ -19,7 +19,7 @@
 
 ### Community
 
-* [Slack Channel](https://owasp.slack.com/messages/project-purpleteam)
+* <i class="fab fa-slack" style="color:#A569BD;"></i> [Slack Channel](https://owasp.slack.com/messages/project-purpleteam)
 
 ### Code Repositories
 
