@@ -24,7 +24,7 @@
 ### Code Repositories
 
 * [purpleteam-labs](https://github.com/purpleteam-labs)
-* [purpleteam CLI](https://github.com/purpleteam)
+* [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam)
 
 ### Change Logs
 
