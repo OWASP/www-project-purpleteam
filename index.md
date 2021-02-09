@@ -20,13 +20,19 @@ Purpleteam strikes at the very heart of this problem. Purpleteam is a CLI and ba
 
 The purpleteam back-end runs smart dynamic application security testing against your web applications or APIs. The purpleteam CLI drives the purpleteam back-end.
 
+<br>
+
 ## Architectural Overview
 
 Redis pub/sub is used to transfer Tester messages (live update data) from the Tester micro-services to the Orchestrator. 
 The Build User can configure the purpleteam CLI to receive these messages via Server Sent Events (SSE) or Long Polling (LP). The Orchestrator also needs to be configured to use either SSE or LP.
 With Long Polling (LP) if the CLI goes off-line at some point during the Test Run and then comes back on-line, no messages will be lost due to the fact that the Orchestrator persists the messages it's subscribed to back to Redis lists, then pops them off the given list as a LP request comes in and returns them to the CLI. LP is request->response, SSE is one way. In saying that, LP can be quite efficient as we are able to batch messages into arrays to be returned.
 
+<br>
+
 ![Architectural Overview](assets/images/purpleteam_local_2021-01_900w-min.png)
+
+<br>
 
 ### Orchestrator
 
