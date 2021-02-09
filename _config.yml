@@ -1,3 +1,7 @@
 remote_theme: "owasp/www--site-theme"
 plugins:
  - jekyll-include-cache-0.2.0
+ 
+# override default star and watch buttons
+code_user: purpleteam-labs
+code_repo: purpleteam-labs
