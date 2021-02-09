@@ -2,9 +2,10 @@
 
 layout: col-sidebar
 title: OWASP purpleteam
+site_side: true
 tags: example-tag
-level: 1
-type: 
+level: 4
+type: tool
 pitch: A very brief, one-line description of your project
 
 ---
