@@ -23,8 +23,8 @@
 
 ### Code Repositories
 
-* [purpleteam-labs](https://github.com/purpleteam-labs)
-* [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam)
+* <i class="fab fa-github" style="color:#A569BD;"></i> [purpleteam-labs](https://github.com/purpleteam-labs) org
+* <i class="fab fa-github" style="color:#A569BD;"></i> [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam)
 
 ### Change Logs
 
