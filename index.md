@@ -22,9 +22,13 @@ The purpleteam back-end runs smart dynamic application security testing against 
 
 ## Architectural Overview
 
+### Redis
+
 Redis pub/sub is used to transfer Tester messages (live update data) from the Tester micro-services to the Orchestrator. 
 The Build User can configure the purpleteam CLI to receive these messages via Server Sent Events (SSE) or Long Polling (LP). The Orchestrator also needs to be configured to use either SSE or LP.
 With Long Polling (LP) if the CLI goes off-line at some point during the Test Run and then comes back on-line, no messages will be lost due to the fact that the Orchestrator persists the messages it's subscribed to back to Redis lists, then pops them off the given list as a LP request comes in and returns them to the CLI. LP is request->response, SSE is one way. In saying that, LP can be quite efficient as we are able to batch messages into arrays to be returned.
+
+### Orchestrator
 
 The Orchestrator is responsible for:
 
@@ -33,13 +37,19 @@ The Orchestrator is responsible for:
 * Packaging and sending the outcomes (test reports, test results) back to the CLI as they become available
 * [Validating, filtering and sanitising](https://f1.holisticinfosecforwebdevelopers.com/chap06.html#web-applications-countermeasures-lack-of-input-validation-filtering-and-sanitisation) the Build User's input
 
+### Testers
+
 Each Tester is responsible for:
 
 * Obtaining resources, cleaning up and releasing resources once the Test Run is finished
 * Starting and Stoping Stage Two Containers (hosted on docker-compose-ui) dynamically (via Lambda Functions hosted locally via sam cli) based on the number of Test Sessions provided by the Build User in the Job file which is sent from the CLI to the Orchestrator, then disseminated to the Testers
 * The actual (app, server, tls, etc) test plan
 
+### Sam Cli
+
 Sam Cli stays running and listening for the Tester requests to run the lambda functions which start and stop the Stage Two Containers.
+
+### docker-compose-ui
 
 docker-compose-ui is required to be running in order to start/stop it's hosted containers (it has access to the hosts Docker socket).
 
