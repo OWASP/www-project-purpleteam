@@ -48,6 +48,10 @@
 
 * <i class="fab fa-twitter" style="color:#A569BD;"></i> <a href="https://twitter.com/purpleteamlabs" target="_blank">twitter</a>
 
+### Sponsorship
+
+* <i class="fas fa-funnel-dollar" style="color:#A569BD;"></i> <a href="https://owasp.org/donate/?reponame=www-project-purpleteam&title=OWASP+purpleteam" target="_blank">Sponsor OWASP purpleteam</a>
+
 ### Resources
 
 * <i class="fas fa-blog" style="color:#A569BD;"></i> [BinaryMist Blog](https://binarymist.io/blog)
