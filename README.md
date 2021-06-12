@@ -1,8 +1,8 @@
 # WWW Purpleteam Project
 
-The OWASP home for the purpleteam project which can be found at: [purpleteam-labs.com](https://purpleteam-labs.com).
+The OWASP home for the PurpleTeam project which can be found at: [purpleteam-labs.com](https://purpleteam-labs.com).
 
-If you want to contribute to the purpleteam project there are many avenues:
+If you want to contribute to the PurpleTeam project there are many avenues:
 
 ## Contributing to purpleteam
 
