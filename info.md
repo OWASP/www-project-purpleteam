@@ -15,7 +15,7 @@
 
 ### Documentation
 
-* <i class="fas fa-book" style="color:#A569BD;"></i> <a href="https://doc.purpleteam-labs.com" target="_blank">Documentation</a>
+* <i class="fas fa-book" style="color:#A569BD;"></i> <a href="https://purpleteam-labs.com/doc/" target="_blank">Documentation</a>
 
 ### Mailing List
 
