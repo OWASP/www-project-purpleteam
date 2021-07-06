@@ -16,4 +16,4 @@ For more details about PurpleTeam see the main purpleteam-labs website at [purpl
 
 [![purpleteam Website](assets/images/PurpleTeam_portrait.png)](https://purpleteam-labs.com)
 
-
+{% include purpleteam_twitter_feeds.html %}
