@@ -21,11 +21,11 @@
 
 * <i class="fas fa-book" style="color:#A569BD;"></i> <a href="https://purpleteam-labs.com/doc/" target="_blank">Documentation</a>
 
--->
-
 ### Mailing List
 
 * <i class="fas fa-mail-bulk" style="color:#A569BD;"></i> [Low Volume Subscribe](https://binarymist.io/blog)
+
+-->
 
 ### Community
 
