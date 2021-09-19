@@ -10,10 +10,10 @@ pitch: Web Security Regression Testing CLI & SaaS for your build pipeline
 
 ---
 
-For more details about PurpleTeam see the main purpleteam-labs website at [purpleteam-labs.com](https://purpleteam-labs.com)
+
 
 <br>
 
-[![purpleteam Website](assets/images/PurpleTeam_portrait.png)](https://purpleteam-labs.com)
+![OWASP PurpleTeam](assets/images/PurpleTeam_portrait.png)
 
 {% include purpleteam_twitter_feeds.html %}
