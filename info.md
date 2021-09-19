@@ -15,9 +15,13 @@
 * <i class="fas fa-hammer" style="color:red;"></i> Breaker
 * <i class="fas fa-shield-alt" style="color:blue;"></i> Defender
 
+<!--
+
 ### Documentation
 
 * <i class="fas fa-book" style="color:#A569BD;"></i> <a href="https://purpleteam-labs.com/doc/" target="_blank">Documentation</a>
+
+-->
 
 ### Mailing List
 
@@ -48,13 +52,18 @@
 
 ### Social Media
 
-* <i class="fab fa-twitter" style="color:#A569BD;"></i> <a href="https://twitter.com/purpleteamlabs" target="_blank">twitter</a>
+* <i class="fab fa-twitter" style="color:#A569BD;"></i> <a href="https://twitter.com/OWASPPurpleTeam" target="_blank">twitter</a>
 
 ### Sponsorship
 
-* <i class="fas fa-funnel-dollar" style="color:#A569BD;"></i> <a href="https://owasp.org/donate/?reponame=www-project-purpleteam&title=OWASP+purpleteam" target="_blank">Sponsor OWASP purpleteam</a>
+* <i class="fas fa-funnel-dollar" style="color:#A569BD;"></i> <a href="https://owasp.org/donate/?reponame=www-project-purpleteam&title=OWASP+purpleteam" target="_blank">Sponsor OWASP PurpleTeam</a>
+
+<!--
 
 ### Resources
 
 * <i class="fas fa-blog" style="color:#A569BD;"></i> [BinaryMist Blog](https://binarymist.io/blog)
 * <i class="fas fa-book" style="color:#A569BD;"></i> [BinaryMist Books](https://binarymist.io/publication/kims-selected-publications/)
+
+-->
+
