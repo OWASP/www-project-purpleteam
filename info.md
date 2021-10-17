@@ -1,5 +1,3 @@
-[![OWASP 20th Anniversary Image](assets/images/OWASP-20th.jpeg)](https://20thanniversary.owasp.org/)
-
 ### purpleteam Information
 
 * <i class="fas fa-egg" style="font-size: 1em; color:#A569BD;"></i>

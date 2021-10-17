@@ -3,9 +3,10 @@
 layout: col-sidebar
 title: OWASP PurpleTeam
 site_side: true
-tags: example-tag
+tags: PurpleTeam
 level: 2
 type: tool
+altfooter: true
 pitch: Web Security Regression Testing CLI & SaaS for your build pipeline
 
 ---
@@ -16,4 +17,4 @@ pitch: Web Security Regression Testing CLI & SaaS for your build pipeline
 
 ![OWASP PurpleTeam](assets/images/PurpleTeam_portrait.png)
 
-{% include purpleteam_twitter_feeds.html %}
+
