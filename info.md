@@ -32,17 +32,16 @@
 ### Code Repositories
 
 * <i class="fab fa-github" style="color:#A569BD;"></i> [purpleteam-labs](https://github.com/purpleteam-labs) org
-* <i class="fab fa-github" style="color:#A569BD;"></i> [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam)
 
 ### Change Logs
 
 * <i class="fas fa-ship" style="color:#A569BD;"></i> [purpleteam CLI](https://github.com/purpleteam-labs/purpleteam/releases)
 * <i class="fas fa-ship" style="color:#A569BD;"></i> [orchestrator](https://github.com/purpleteam-labs/purpleteam-orchestrator/releases)
 * <i class="fas fa-ship" style="color:#A569BD;"></i> [app-scanner](https://github.com/purpleteam-labs/purpleteam-app-scanner/releases)
+* <i class="fas fa-ship" style="color:#A569BD;"></i> [tls-checker](https://github.com/purpleteam-labs/purpleteam-tls-checker/releases)
+* <i class="fas fa-ship" style="color:#A569BD;"></i> [server-scanner](https://github.com/purpleteam-labs/purpleteam-server-scanner/releases)
 * <i class="fas fa-ship" style="color:#A569BD;"></i> [lambda](https://github.com/purpleteam-labs/purpleteam-lambda/releases)
 * <i class="fas fa-ship" style="color:#A569BD;"></i> [s2-containers](https://github.com/purpleteam-labs/purpleteam-s2-containers/releases)
-* <i class="fas fa-ship" style="color:#A569BD;"></i> [server-scanner](https://github.com/purpleteam-labs/purpleteam-server-scanner/releases)
-* <i class="fas fa-ship" style="color:#A569BD;"></i> [tls-checker](https://github.com/purpleteam-labs/purpleteam-tls-checker/releases)
 
 ### Licensing
 
