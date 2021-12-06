@@ -13,19 +13,19 @@ tags: PurpleTeam
 
 ### CLI
 
-2021-11-19 - [`v2.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam/releases/tag/v2.0.0-alpha.3)
+2021-12-06 - [`v3.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam/releases/tag/v3.0.0-alpha.3)
 
 ### Orchestrator
 
-2021-11-19 - [`v2.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam-orchestrator/releases/tag/v2.0.0-alpha.3)
+2021-12-06 - [`v3.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam-orchestrator/releases/tag/v3.0.0-alpha.3)
 
 ### Application Tester
 
-2021-11-19 - [`v2.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam-app-scanner/releases/tag/v2.0.0-alpha.3)
+2021-12-06 - [`v3.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam-app-scanner/releases/tag/v3.0.0-alpha.3)
 
 ### TLS Tester
 
-2021-10-01 - [`v1.0.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam-tls-scanner/releases/tag/v1.0.0-alpha.3)
+2021-12-06 - [`v1.1.0-alpha.3`](https://github.com/purpleteam-labs/purpleteam-tls-scanner/releases/tag/v1.1.0-alpha.3)
 
 ### Server Tester
 
